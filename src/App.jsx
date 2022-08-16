@@ -24,7 +24,7 @@ function App() {
 
   const resultado = !buscar ? dato : dato.filter((elemento) => elemento.title.toLowerCase().includes(buscar.toLocaleLowerCase()));
 
-  if(resultado == ''){
+  if(resultado === ''){
     message = 'No hay datos correspondientes a su busqueda';
   }
 
